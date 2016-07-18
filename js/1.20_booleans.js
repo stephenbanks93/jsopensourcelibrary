@@ -13,11 +13,11 @@ console.log(bool2);
 console.log("----------");
 
 //While this is the function for booleans, you can
-//simply use "console.log()" as seen in the examples below
+//simply use "console.log()" as seen in the examples below.
 
 //Comparison Operators//
 
-//Examples of true statments using comparison operators
+//Examples of true statments using comparison operators.
 
 // Equal to
 console.log(2 == 2);
@@ -57,18 +57,18 @@ console.log("----------");
 
 //Things without a "real" value are false
 //therefore, the Boolean function can tell us
-//what has a "real" value
+//what has a "real" value.
 
 //Examples of "real" values
 
 console.log(Boolean(1));//"1" has a real value whereas "0" does not,
-console.log(Boolean(0));//so "1" is true and "0" is false
+console.log(Boolean(0));//so "1" is true and "0" is false.
 						//Basic "on/off" concept
 console.log("----------");
 
 //Other "real" values
 //Integers are "real" because they are real numbers on a numberline
-//so they return "true"
+//so they return "true".
 
 console.log(Boolean(-4));
 
