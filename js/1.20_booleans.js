@@ -1,4 +1,4 @@
-//BOOLEANS//
+//Booleans//
 
 //Booleans statements are either "true" or "false".
 
