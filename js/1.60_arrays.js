@@ -64,8 +64,72 @@ var a = function(){
  
 console.log(a());
 
+//The "push()" function
 
+var arr4 = ["a2", "b2", "c2", "d2"];
 
+var b = function(){
+	arr4.push("e2");
+	return arr4;
+};
+
+console.log(b());
+
+//The "shift()" function - similar to the "pop()" function
+
+var arr5 = ["a3", "b3", "c3", "d3"];
+
+var c = function(){
+	arr5.shift();
+	return arr5;
+};
+
+console.log(c());
+
+//The "unshift()" function - similar to the "push()" function
+
+var arr6 = ["a4", "b4", "c4", "d4"];
+
+var d = function(){
+	arr6.unshift("e4");
+	return arr6;
+};
+
+console.log(d());
+
+//It is possible to directly alter the index of an array
+
+var arr7 = ["aa", "ba", "ca", "da"];
+
+var e = function(){
+	arr7[0] = "za";
+	return arr7;
+};
+
+console.log(e());
+
+//Another interesting way to add items to an array
+
+var arr8 = ["ab", "bb", "cb", "db"];
+
+var f = function(){
+	arr8[arr8.length] = "eb";
+	return arr8;
+};
+
+console.log(f());
+
+//It is also possible to flat out delete items from an array
+//(Tends to leave holes in the array)
+
+var arr9 = ["ac", "bc", "cc", "dc"];
+
+var g = function(){
+	delete arr9[3];
+	return arr9;
+};
+
+console.log(g());
 
 
 
