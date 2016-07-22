@@ -131,5 +131,49 @@ var g = function(){
 
 console.log(g());
 
+//Array splicing
+
+var arr10 = ["ad", "bd", "cd", "dd"];
+
+var h = function(){
+	arr10.splice(2, 0, "ed", "fd");
+	return arr10;
+};
+
+console.log(h());
+
+//The "splice()" function can remove items
+
+var arr11 = ["ae", "be", "ce","de"];
+
+var i = function(){
+	arr11.splice(0, 1);
+	return arr11.join(", ");
+};
+
+console.log(i());
+
+//Array joining
+
+var arrA = ["1", "2", "3"];
+var arrB = ["4", "5", "6"];
+
+var ii = function(){
+	return arrA.concat(arrB).join(", ");
+};
+
+console.log(ii());
+
+//Array slicing
+
+var arrC = ["A", "B", "C", "D"];
+
+var arrC1 = arrC.slice(1);
+
+console.log(arrC.join(", "));
+
+console.log(arrC1.join(", "));
+
+
 
 
